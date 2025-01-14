@@ -1,26 +1,24 @@
 {
-  "inbounds": [{
-    "port": 8080,
-    "protocol": "vless",
-    "settings": {
-      "clients": [
-        {
-          "id": "b02b2bd1-549f-4722-9b01-dc637081cc60",
-          "email": "default-user",
-          "flow": ""
-        }
-      ],
-      "decryption": "none"
-    },
-    "streamSettings": {
-      "network": "ws",
-      "wsSettings": {
-        "path": "/vless"
+  "inbounds": [
+    {
+      "port": 8080,
+      "protocol": "vless",
+      "settings": {
+        "decryption": "none",
+        "clients": [
+          {
+            "id": "347302c9-9c4f-4103-9776-8efb34301934"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws"
       }
     }
-  }],
-  "outbounds": [{
-    "protocol": "freedom",
-    "settings": {}
-  }]
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom"
+    }
+  ]
 }
