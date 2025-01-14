@@ -8,7 +8,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes, CallbackQuer
 TELEGRAM_TOKEN = os.environ.get('7751238432:AAEfCQ-LS5YujqVU9ZvPNPHn2fVqe6oLEMU')
 ADMIN_USERNAME = "faizvpn"  # Your Telegram username
 CONFIG_PATH = '/etc/v2ray/config.json'
-SERVER_URL = "https://v2ra-panel-728381334696.us-central1.run.app"
+SERVER_URL = "https://test21-728381334696.us-central1.run.app"
 
 def is_admin(username):
     return username == ADMIN_USERNAME
